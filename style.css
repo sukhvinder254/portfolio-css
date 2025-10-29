@@ -1,0 +1,132 @@
+/* ===== General Styling ===== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #4b6584;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Sections ===== */
+section {
+  padding: 25px;
+  text-align: center;
+}
+
+h2 {
+  color: #4b6584;
+  margin-bottom: 15px;
+}
+
+/* ===== About Section ===== */
+#about p {
+  font-size: 16px;
+}
+
+/* ===== Skills Section ===== */
+table {
+  width: 60%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  background-color: #4b6584;
+  color: white;
+}
+
+/* ===== Projects Section ===== */
+#projects h2 {
+  margin-bottom: 10px;
+}
+
+.project {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+/* ===== Contact Section ===== */
+#contact {
+  margin-top: 30px;
+}
+
+#contact h2 {
+  font-size: 22px;
+  color: #4b6584;
+  margin-bottom: 20px;
+}
+
+/* Contact Form */
+form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #f1f2f6;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4b6584;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #34495e;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #4b6584;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  margin-top: 30px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1> My Portfolio </h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <br>
+    <img src=""
+    <p>Hello! My name is sukhvinder kaur. I'm learning web development and this is my portfolio website.</p>
+  </section>
+
+  <section id="skills">
+  <h2>My Skills</h2>
+  <table>
+    <tr>
+      <th>Skill</th>
+      <th>Level</th>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>Beginner</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>Beginner</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td>Learning</td>
+    </tr>
+  </table>
+</section>
+
+  
+
+    <form><section id="projects">
+  <h2>My Projects</h2>
+  <div class="projects-list">
+    <div class="project-card">
+      <h3>Project 1</h3>
+      <p>A simple HTML & CSS webpage.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Project 2</h3>
+      <p>Another awesome mini project.</p>
+    </div>
+  </div>
+</section>
+<section id="contact"
+<h2>contact Me</h2>
+      <label>Name:</label>
+      <input type="text" placeholder="Enter your name"><br><br>
+      <label>Email:</label>
+      <input type="email" placeholder="Enter your email"><br><br>
+      <label>Message:</label><br>
+      <textarea rows="4" placeholder="Write your message here"></textarea><br><br>
+      <button>Send</button>
+    </form>
+</section>
+
+<footer>
+  <p>made by sukhvinder kaur</p>
+</footer>
+</body>
+</html>

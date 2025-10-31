@@ -7,7 +7,7 @@
 <body>
 
   <header>
-    <h1> My Portfolio </h1>
+    <h1>My Portfolio</h1>
     <nav>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
@@ -21,61 +21,78 @@
     <br>
     <img src="pic.jpg" alt="My photo" width="200" height="200">
     <br>
-    <p>Hello! My name is sukhvinder kaur. I'm learning web development and this is my portfolio website.</p>
+    <p>Hello! My name is Sukhvinder Kaur. I'm learning web development and this is my portfolio website.</p>
   </section>
 
   <section id="skills">
-  <h2>My Skills</h2>
-  <table>
-    <tr>
-      <th>Skill</th>
-      <th>Level</th>
-    </tr>
-    <tr>
-      <td>HTML</td>
-      <td>Beginner</td>
-    </tr>
-    <tr>
-      <td>CSS</td>
-      <td>Beginner</td>
-    </tr>
-    <tr>
-      <td>JavaScript</td>
-      <td>Learning</td>
-    </tr>
-  </table>
-</section>
+    <h2>My Skills</h2>
+    <table>
+      <tr>
+        <th>Skill</th>
+        <th>Level</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>Learning</td>
+      </tr>
+    </table>
+  </section>
 
-  
-
-    <form><section id="projects">
-  <h2>My Projects</h2>
-  <div class="projects-list">
-    <div class="project-card">
-      <h3>Project 1</h3>
-      <p>A simple HTML & CSS webpage.</p>
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-list">
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>A simple HTML & CSS webpage.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>Another awesome mini project.</p>
+      </div>
     </div>
+  </section>
 
-    <div class="project-card">
-      <h3>Project 2</h3>
-      <p>Another awesome mini project.</p>
-    </div>
-  </div>
-</section>
-<section id="contact"
-<h2>contact Me</h2>
-      <label>Name:</label>
-      <input type="text" placeholder="Enter your name"><br><br>
-      <label>Email:</label>
-      <input type="email" placeholder="Enter your email"><br><br>
-      <label>Message:</label><br>
-      <textarea rows="4" placeholder="Write your message here"></textarea><br><br>
-      <button>Send</button>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+
+      <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" id="name" placeholder="Enter your name"></td>
+        </tr>
+
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" placeholder="Enter your email"></td>
+        </tr>
+
+        <tr>
+            <td><label for="message">Message:</label></td>
+            <td><textarea id="message" placeholder="Write your message"></textarea></td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <button type="submit">Send</button>
+            </td>
+        </tr>
+    </table>
     </form>
-</section>
+      <button type="button" onclick="window.scrollTo(0,0)">Back to Top</button>
+  </section>
 
-<footer>
-  <p>made by sukhvinder kaur</p>
-</footer>
+  <footer>
+    <p>Made by Sukhvinder Kaur</p>
+  </footer>
+
 </body>
 </html>
